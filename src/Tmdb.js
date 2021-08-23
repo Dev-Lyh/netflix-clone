@@ -13,19 +13,20 @@ export default {
       {
         slug: "originals",
         title: "Originais do Netflix",
-        items: await basicFetch(`/discover/tv?with_network=213&language`),
+        items: await basicFetch(`/discover/tv?with_network=213&language=PT_BR`),
       },
       {
         slug: "trending",
         title: "Recomendados para você",
         items: [],
       },
-      {I
+      {
         slug: 'toprated',
         title: 'Em Alta',
         items: [],
       },
-      P        slug: 'action',
+      {
+        slug: 'action',
         title: 'Ação',
         items: [],
       },
